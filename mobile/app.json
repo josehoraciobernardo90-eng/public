@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "LIMPA-LAAA",
+    "slug": "limpa-laaa-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "mz.gov.chimoio.limpalaaa",
+      "googleServicesFile": "./google-services.json",
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#11643f",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "./plugins/withGoogleServicesVersion",
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6865c4b3-73e9-44c6-a86d-99ced0d64e27"
+      }
+    }
+  }
+}
