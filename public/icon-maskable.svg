@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gradBgMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+    <linearGradient id="goldAccMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background for maskable icon -->
+  <rect width="512" height="512" fill="url(#gradBgMask)" />
+
+  <!-- Content within safe-zone (central 80% circle) -->
+  <g transform="translate(56, 40) scale(0.8)">
+    <!-- Trash Bin Body -->
+    <rect x="156" y="200" width="140" height="170" rx="20" fill="#ffffff" />
+    
+    <!-- Vertical decorative ribs on bin -->
+    <rect x="186" y="240" width="12" height="90" rx="6" fill="#15803d" opacity="0.25" />
+    <rect x="220" y="240" width="12" height="90" rx="6" fill="#15803d" opacity="0.25" />
+    <rect x="254" y="240" width="12" height="90" rx="6" fill="#15803d" opacity="0.25" />
+
+    <!-- Bin Lid Handle -->
+    <rect x="196" y="145" width="60" height="18" rx="9" fill="url(#goldAccMask)" />
+    <!-- Bin Lid -->
+    <path d="M136 175 C136 168 142 163 150 163 L302 163 C310 163 316 168 316 175 L326 195 L126 195 Z" fill="#ffffff" />
+    
+    <!-- Recycling Leaf Crest -->
+    <circle cx="226" cy="285" r="32" fill="#16a34a" />
+    <path d="M226 265 C238 273 244 287 242 299 C230 299 216 293 210 281 C208 275 214 267 226 265 Z" fill="#ffffff" />
+  </g>
+
+  <rect x="116" y="405" width="280" height="40" rx="20" fill="#ffffff" opacity="0.95" />
+  <text x="256" y="432" font-family="'Inter', sans-serif" font-weight="800" font-size="20" fill="#166534" text-anchor="middle" letter-spacing="1.2">LIMPA-LAAA</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#052e16" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Rectangle for App Icon -->
+  <rect width="512" height="512" rx="110" fill="url(#gradBg)" />
+  
+  <!-- Subtle inner circle accent -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#22c55e" stroke-width="4" opacity="0.3" />
+
+  <!-- Eco Leaf / Recycle Trash Container Symbol -->
+  <g filter="url(#shadow)" transform="translate(40, 30)">
+    <!-- Trash Bin Body -->
+    <rect x="146" y="200" width="140" height="170" rx="20" fill="#ffffff" />
+    
+    <!-- Vertical decorative ribs on bin -->
+    <rect x="176" y="240" width="12" height="90" rx="6" fill="#15803d" opacity="0.25" />
+    <rect x="210" y="240" width="12" height="90" rx="6" fill="#15803d" opacity="0.25" />
+    <rect x="244" y="240" width="12" height="90" rx="6" fill="#15803d" opacity="0.25" />
+
+    <!-- Bin Lid Handle -->
+    <rect x="186" y="145" width="60" height="18" rx="9" fill="url(#goldAcc)" />
+    <!-- Bin Lid -->
+    <path d="M126 175 C126 168 132 163 140 163 L292 163 C300 163 306 168 306 175 L316 195 L116 195 Z" fill="#ffffff" />
+    
+    <!-- Recycling / Sparkle Leaf Crest -->
+    <circle cx="216" cy="285" r="32" fill="#16a34a" />
+    <path d="M216 265 C228 273 234 287 232 299 C220 299 206 293 200 281 C198 275 204 267 216 265 Z" fill="#ffffff" />
+    <path d="M216 265 C216 277 220 287 228 293" stroke="#16a34a" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- App Title Banner Tag -->
+  <rect x="96" y="415" width="320" height="46" rx="23" fill="#ffffff" opacity="0.95" />
+  <text x="256" y="445" font-family="'Inter', sans-serif" font-weight="800" font-size="22" fill="#166534" text-anchor="middle" letter-spacing="1.5">LIMPA-LAAA</text>
+</svg>
