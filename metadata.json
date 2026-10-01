@@ -1,0 +1,10 @@
+{
+  "name": "LIMPA GONDOLA PRO",
+  "description": "Sistema de monitoramento e gestão de resíduos sólidos. Uma iniciativa do Presidente Arlindo Cesario Ngozo para otimizar a coleta urbana em Gondola.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

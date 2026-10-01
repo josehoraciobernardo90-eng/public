@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1068600878825",
+    "project_id": "limpa-laaa",
+    "storage_bucket": "limpa-laaa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068600878825:android:391bcde41a1e03988d3278",
+        "android_client_info": {
+          "package_name": "mz.gov.chimoio.limpalaaa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCud5Bb5q4DX1RwrW-pPmpSf0pNXJNCPEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
